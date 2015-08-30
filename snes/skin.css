@@ -1,0 +1,327 @@
+/*
+-How to use Custom CSS for the Gamepad Viewer-
+http://mrmcpowned.com/gamepad
+
+Enabling a custom CSS is as easy as adding &css=[url to css file]
+to the end of the url like so:
+http://mrmcpowned.com/gamepad?p=1&css=https://gist.github.com/anonymous/526491dc02014099cd14/raw/d7bb0477ba984f794497f3f0f82cb33484dc7889/ps3.css
+
+If you're going to be using custom CSS for the gamepad viewer
+to design your own skin, we're assuming you have some sort of
+basic knowledge on how CSS works. I'd also suggest uploading
+your custom CSS to GitHub's gist as you can easily get the
+direct link for the file by copying the link address on the
+"Raw" button at the top right of the code.
+NOTE: If you're using gist, MAKE SURE TO NAME YOUR CSS FILE!
+It doesn't matter what you call it, so long as it ends in .css
+else the site won't read it and think it's just a plain text.
+
+Each CSS entry must be preceded by '.custom' since that's the 
+hardcoded class for a custom style. It doesn't make sense to 
+change this as you can only have one custom skin loaded at a time.
+
+If you're using images, they have to be uploaded to an image host of
+your choice. Personally, I'd go with Imgur since it's simple to upload
+and get the direct URL of the image. None of the images in this example
+will load because they're pointing to a location relative of the css 
+files, since this is normally in the main CSS file of the site.
+
+The following is a copy of the code used for displaying the PS3 controller
+skin on the Gamepad viewer. You can scroll below and read the comments to
+get an understanding of how the styling works and whatnot. Happy skinning!
+
+P.S. If you use this tool often and would like to 'buy me a coffee' you can
+do so via my Imraising page: https://imraising.tv/u/mrmcpowned
+
+*/
+
+/*BEGIN PS3 Controller Styling*/
+/*This class defines the base attributes of the skin*/
+.controller.custom{
+    /* The background image is basically the base for the controller's skin. The 
+    PS3 controller's skin can be found at http://mrmcpowned.com/gamepad/ps3-assets/base.png
+    and you can observe it as an example. The sticks, buttons, and directional arrows are missing
+    because their appropriate elements will be incorperated when their styling is defined below.
+    The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
+    background-image: url(img/base.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 177px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -88px;
+    margin-left: -200px;
+}
+.custom.disconnected { /* This class shows an image when the controller is disconnected */
+    /*background: url(ps3-assets/base-disconnect.png);*/
+}
+/* This hides the controller's button when disconnected so only the background image remains */ 
+.custom.disconnected div {
+    display: none;
+}
+.custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
+    display: none;
+}
+.custom .trigger{/* These are the actual triggers themselves */
+    display: none;
+}
+/* The left and right classes below are used to position the triggers
+within the div they're contained in. Since their positions is realtive
+to the size of the parent element, we simply resize the parent element 
+above to achieve the desired position. */
+.custom .trigger.left{ 
+    float: left;
+}
+.custom .trigger.right{
+    float: right;
+}
+
+/* The bumpers follow the same methodology as the triggers in terms of
+placement */
+.custom .bumper{
+    width: 60px;
+    height: 5px;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 258px;
+    height: 20px;
+    left: 71px;
+    top: 2px;
+}
+.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
+    background-color: #FFFFFF;
+    -webkit-border-radius: 2px;
+    opacity: 0.8;
+}
+.custom .bumper.left{
+  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
+  and I can just rotate them in the browser? Also, note that you most likely won't need
+  to use a browser speficic prefix unless it's something that is indeed browser specific.
+  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    float: left;
+}
+.custom .bumper.right{
+    float: right;
+}
+/* This bit of code is for the player indicator, which is represented in
+quandrants on the xbox controller. That's note what it's called on the
+PS3 controller but it'd be pointless for me to change the HTML for 
+something as pedantic as a name. */
+.custom .quadrant{
+    position: absolute;
+    /*background: url(ps3-assets/player-n.png);*/
+    height: 17px;
+    width: 111px;
+    top: 140px;
+    left: 240px;
+}
+/* Since the player indicator is just a CSS sprite, we change the 
+position of the background to match the player number.
+NOTE: Player orderin starts at 0, so p0 = Player 1 */
+.custom .p0{
+    background-position: 0 -6px;
+}
+.custom .p1{
+    background-position: 0 -28px;
+}
+.custom .p2{
+    background-position: 0 -49px;
+}
+.custom .p3{
+    background-position: 0 -70px;
+}
+/* This is to size and position the containing div for the 
+start and select buttons. */
+.custom .arrows{
+    position: absolute;
+    width: 73px;
+    height: 35px;
+    top: 98px;
+    left: 148px;
+}
+/* Setting the size and CSS sprite for the start adn select buttons */
+.custom .back, .custom .start{
+    width: 30px;
+    height: 10px;
+    top: 15px;
+}
+.custom .back.pressed, .custom .start.pressed{
+    -webkit-transform: rotate(142deg);
+    transform: rotate(142deg);
+    -webkit-border-radius: 8px;
+    background-color: #FFFFFF;
+    opacity: 0.6;
+}
+.custom .back{
+    float: left;
+}
+.custom .start{
+    float: right;
+}
+/* Positioning and size of the container for the face buttons */
+.custom .abxy{
+    position: absolute;
+    width: 110px;
+    height: 92px;
+    top: 44px;
+    left: 260px;
+}
+/* base class used to simplify the sprite mapping */
+.custom .button{
+    position: absolute;
+    width:32px;
+    height:32px;
+}
+.custom .button.pressed{
+    width: 31px;
+    height: 31px;
+    -webkit-border-radius: 16px;
+    background-color: #FFFFFF;
+    opacity: 0.6;
+    /*margin-top: 5px;*/
+}
+/* SNES' B button is mapped to Xinput's A button */
+.custom .a{
+    top: 60px;
+    left: 40px;
+}
+/* SNES' A button is mapped to Xinput's B button */
+.custom .b{
+    top: 30px;
+    right: 0px;
+}
+/* SNES' Y button is mapped to Xinput's X button */
+.custom .x{
+    top: 30px;
+}
+/* SNES' X button is mapped to Xinput's Y button */
+.custom .y{
+    left: 40px;
+}
+/* Analog sticks follow the same principles as the triggers in terms of positioning
+Note that the rotation of the sticks in hard coded with javascript, so it applies 
+the CSS inline. */
+.custom .sticks{
+    display: none;
+}
+.custom .stick{
+    display: none;
+}
+.custom .stick.pressed.left{
+    display: none;
+}
+.custom .stick.pressed.right{
+    display: none;
+}
+.custom .stick.left{
+    display: none;
+}
+.custom .stick.right{
+    display: none;
+}
+/* Dpad possitioning and sizing */
+.custom .dpad{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 56px;
+    left: 49px;
+}
+.custom .face{
+    position: absolute;
+}
+.custom .face.up, .custom .face.down{
+    width: 19px;
+    height: 19px;
+}
+.custom .face.left, .custom .face.right{
+    width: 19px;
+    height: 19px;
+}
+.custom .face.up{
+    left: 25px;
+    top: 2px;
+}
+.custom .face.down{
+    left: 25px;
+    top: 48px;
+}
+.custom .face.left{
+    top: 25px;
+    left: 2px;
+}
+.custom .face.right{
+    top: 25px;
+    right: 3px;
+}
+.custom .face.pressed{
+    background-color: #FFFFFF;
+    -webkit-border-radius: 2px;
+    opacity: 0.6;
+}
+/* NOTE: You NEED to set this to exactly half the height of what is listed 
+for '.controller.custom' so when your skin is activated via player selection
+parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
+centered on screen. */
+.custom.half{
+    margin-top: -279px;
+}
+/* The following entries are empty because I haven't used them yet, but they
+exist for the purpose of displaying a fightstick. Since fightsticks have 
+the left and right triggers and digital buttons, there are separate 
+html items that allow the triggers to be shown as button presses isntead of
+an opacity setting */
+.custom .trigger-button.left{
+    
+}
+.custom .trigger-button.right{
+    
+}
+.custom .trigger-button.left.pressed{
+    
+}
+.custom .trigger-button.right.pressed{
+    
+}
+/* This is where the fight stick CSS would go. The ideal way of 
+showing the input would be to use an image sprite of a fight stick in
+all 8 positions, and change it according to the inputs. The classes 
+themselves are fairly self explanatory. */
+.fstick{
+    position: absolute;
+    width: 140px;
+    height: 132px;
+    top: 192px;
+    left: 74px;
+}
+.fstick.up{
+  
+}
+.fstick.down{
+  
+}
+.fstick.left{
+  
+}
+.fstick.right{
+  
+}
+.fstick.up.right{
+  
+}
+.fstick.up.left{
+  
+}
+.fstick.down.right{
+  
+}
+.fstick.down.left{
+  
+}
+
+/*END PS3 Controller Styling*/
