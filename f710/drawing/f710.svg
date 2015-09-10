@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1052.3622"
@@ -31,6 +32,746 @@
          d="m 265.646,440.022 177.74,0 0,29.389 -177.74,0 0,-29.389 z"
          id="path3115-6" />
     </clipPath>
+    <filter
+       id="filter3894"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3896"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix3898"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter3900"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3902"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix3904"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter3906"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3908"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix3910"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4040"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4042"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4044"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4119"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4121"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4123"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4125"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4127"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4129"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4131"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4133"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4135"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4137"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4139"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4141"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4143"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4145"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4147"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4149"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4151"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4153"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4176"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4178"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4180"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4182"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4184"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4186"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4188"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4190"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4192"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4472"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4474"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4476"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4478"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4480"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4482"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4484"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4486"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4488"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4490"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4492"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4494"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4496"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4498"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4500"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4502"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4504"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4506"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4502-8"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4504-3"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4506-9"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4496-4"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4498-2"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4500-2"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4484-6"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4486-2"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4488-5"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4502-7"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4504-9"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4506-8"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4496-0"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4498-8"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4500-20"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4484-9"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4486-0"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4488-2"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4502-7-8"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4504-9-6"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4506-8-1"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4502-7-8-0"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4504-9-6-9"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4506-8-1-3"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4484-9-6"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4486-0-4"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4488-2-5"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4496-0-6"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4498-8-1"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4500-20-1"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4502-7-7"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4504-9-5"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4506-8-0"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter4502-7-4"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix4504-9-2"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix4506-8-3"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter5118"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix5120"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5122"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter5124"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix5126"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5128"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter5130"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix5132"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5134"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter5130-1"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix5132-6"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5134-3"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter5124-5"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix5126-8"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5128-4"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
+    <filter
+       id="filter5118-8"
+       inkscape:label="Invert"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Invert colors"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix5120-5"
+         type="saturate"
+         values="1"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix5122-8"
+         in="fbSourceGraphic"
+         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0 " />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -39,9 +780,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.42573066"
-     inkscape:cx="-241.53449"
-     inkscape:cy="176.91384"
+     inkscape:zoom="0.47835814"
+     inkscape:cx="465.56025"
+     inkscape:cy="1139.7116"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -133,7 +874,7 @@
        sodipodi:cy="380.61237"
        sodipodi:rx="169.022"
        sodipodi:ry="169.022"
-       d="m 367.43913,380.61237 a 169.022,169.022 0 1 1 -338.044004,0 169.022,169.022 0 1 1 338.044004,0 z"
+       d="m 367.43913,380.61237 c 0,93.34827 -75.67373,169.022 -169.022,169.022 -93.34828,0 -169.022004,-75.67373 -169.022004,-169.022 0,-93.34828 75.673724,-169.02201 169.022004,-169.02201 93.34827,0 169.022,75.67373 169.022,169.02201 z"
        transform="matrix(1.3509726,0,0,1.3509726,-133.29867,157.37734)"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
        inkscape:export-xdpi="47.25"
@@ -146,7 +887,7 @@
        sodipodi:cy="-791.23584"
        sodipodi:rx="136.80042"
        sodipodi:ry="136.80042"
-       d="m 2524.5895,-791.23584 a 136.80042,136.80042 0 1 1 -273.6009,0 136.80042,136.80042 0 1 1 273.6009,0 z"
+       d="m 2524.5895,-791.23584 c 0,75.55278 -61.2477,136.80042 -136.8004,136.80042 -75.5528,0 -136.8005,-61.24764 -136.8005,-136.80042 0,-75.55278 61.2477,-136.80041 136.8005,-136.80041 75.5527,0 136.8004,61.24763 136.8004,136.80041 z"
        transform="matrix(1.2479339,0,0,1.2479339,-2845.0455,1658.9843)"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
        inkscape:export-xdpi="47.25"
@@ -159,17 +900,8 @@
        sodipodi:cy="376.09006"
        sodipodi:rx="96.664757"
        sodipodi:ry="96.664757"
-       d="m 278.12316,376.09006 a 96.664757,96.664757 0 1 1 -193.329512,0 96.664757,96.664757 0 1 1 193.329512,0 z"
+       d="m 278.12316,376.09006 c 0,53.38647 -43.27828,96.66475 -96.66476,96.66475 -53.38647,0 -96.664752,-43.27828 -96.664752,-96.66475 0,-53.38647 43.278282,-96.66476 96.664752,-96.66476 53.38648,0 96.66476,43.27829 96.66476,96.66476 z"
        transform="matrix(1.2110629,0,0,1.2110629,-81.261241,219.84441)"
-       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
-       inkscape:export-xdpi="47.25"
-       inkscape:export-ydpi="47.25" />
-    <path
-       style="opacity:1;fill:#10131a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 137.2463,556.03212 0,0.031 c -2.5644,0.072 -15.60335,0.5062 -21.71875,1.9375 -5.75702,1.3474 -14.875,3.3543 -14.875,6.8125 l 0,62.7813 c 0,3.3415 -1.02986,6.1619 -3.6875,8.1874 -2.07805,1.5246 -3.62568,2.8843 -6.75,2.7813 l -62.78125,0 c -3.4582,0 -5.46509,9.1179 -6.8125,14.875 -1.4313,6.1153 -1.866,19.1231 -1.9375,21.6875 l -0.0312,0 c 0,0 0.0302,0.4286 0.0312,0.5 0,0.071 -0.0312,0.5 -0.0312,0.5 l 0.0312,0 c 0.072,2.5643 0.5062,15.6032 1.9375,21.7188 1.34741,5.757 3.3543,14.875 6.8125,14.875 l 62.78125,0 c 3.6008,-0.1942 6.09586,0.5796 8.28125,2.125 2.6577,2.0255 3.6875,4.8458 3.6875,8.1874 l 0,62.7813 c 0,3.4582 9.118,5.4651 14.875,6.8125 6.1154,1.4313 19.1231,1.866 21.6875,1.9375 l 0,0.031 c 0,0 0.4287,-0.03 0.5,-0.031 0.071,0 0.5,0.031 0.5,0.031 l 0,-0.031 c 2.5644,-0.072 15.60335,-0.5062 21.71875,-1.9375 5.75701,-1.3474 14.875,-3.3543 14.875,-6.8125 l 0,-61.3437 0.0625,0 c 0,0 0.474,-6.4709 2.1875,-8.7188 2.0256,-2.6576 4.8458,-3.6875 8.1875,-3.6875 l 62.78125,0 c 3.4582,0 5.4651,-9.1179 6.8125,-14.875 1.4313,-6.1153 1.866,-19.1231 1.9375,-21.6875 l 0.0312,0 c 0,0 -0.0303,-0.4286 -0.0312,-0.5 0,-0.071 0.0312,-0.5 0.0312,-0.5 l -0.0312,0 c -0.072,-2.5643 -0.5062,-15.6033 -1.9375,-21.7188 -1.3474,-5.757 -3.3543,-14.875 -6.8125,-14.875 l -62.78125,0 c -3.60081,0.1942 -6.09585,-0.5796 -8.28125,-2.125 -2.65764,-2.0254 -3.6875,-4.8458 -3.6875,-8.1874 l 0,-62.7813 c 0,-3.4582 -9.11798,-5.4651 -14.875,-6.8125 -6.1154,-1.4313 -19.1231,-1.866 -21.6875,-1.9375 l 0,-0.031 c 0,0 -0.42866,0.03 -0.5,0.031 -0.0713,0 -0.5,-0.031 -0.5,-0.031 z"
-       id="path4186"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccsssccsscccccssccssscccccsscccssccccccssccssscccc"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
        inkscape:export-xdpi="47.25"
        inkscape:export-ydpi="47.25" />
@@ -181,7 +913,7 @@
        sodipodi:cy="654.7785"
        sodipodi:rx="135.66983"
        sodipodi:ry="135.66983"
-       d="m 551.724,654.7785 a 135.66983,135.66983 0 1 1 -271.33966,0 135.66983,135.66983 0 1 1 271.33966,0 z"
+       d="m 551.724,654.7785 c 0,74.92838 -60.74145,135.66983 -135.66983,135.66983 -74.92838,0 -135.66983,-60.74145 -135.66983,-135.66983 0,-74.92837 60.74145,-135.66983 135.66983,-135.66983 74.92838,0 135.66983,60.74146 135.66983,135.66983 z"
        transform="matrix(1.2508402,0,0,1.2508402,-163.06744,107.93024)"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
        inkscape:export-xdpi="47.25"
@@ -308,59 +1040,59 @@
        inkscape:export-ydpi="47.25" />
     <path
        sodipodi:type="arc"
-       style="opacity:1;fill:#f69621;fill-opacity:1;stroke:none"
+       style="fill:#f69621;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path4421"
        sodipodi:cx="2376.4834"
        sodipodi:cy="-885.07416"
        sodipodi:rx="53.137352"
        sodipodi:ry="53.137352"
-       d="m 2429.6208,-885.07416 c 0,29.34695 -23.7905,53.13735 -53.1374,53.13735 -29.347,0 -53.1374,-23.7904 -53.1374,-53.13735 0,-29.34695 23.7904,-53.13735 53.1374,-53.13735 29.3469,0 53.1374,23.7904 53.1374,53.13735 z"
-       transform="translate(-1366.9804,1439.0679)"
+       d="m 2429.6208,-885.07416 a 53.137352,53.137352 0 1 1 -106.2748,0 53.137352,53.137352 0 1 1 106.2748,0 z"
+       transform="translate(-1366.9804,1440.0679)"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
        inkscape:export-xdpi="47.25"
        inkscape:export-ydpi="47.25" />
     <path
        sodipodi:type="arc"
-       style="opacity:1;fill:#b02227;fill-opacity:1;stroke:none"
+       style="fill:#b02227;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path4421-3"
        sodipodi:cx="2376.4834"
        sodipodi:cy="-885.07416"
        sodipodi:rx="53.137352"
        sodipodi:ry="53.137352"
-       d="m 2429.6208,-885.07416 c 0,29.34695 -23.7905,53.13735 -53.1374,53.13735 -29.347,0 -53.1374,-23.7904 -53.1374,-53.13735 0,-29.34695 23.7904,-53.13735 53.1374,-53.13735 29.3469,0 53.1374,23.7904 53.1374,53.13735 z"
-       transform="translate(-1249.3999,1556.6484)"
+       d="m 2429.6208,-885.07416 a 53.137352,53.137352 0 1 1 -106.2748,0 53.137352,53.137352 0 1 1 106.2748,0 z"
+       transform="translate(-1250.3999,1556.6484)"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
        inkscape:export-xdpi="47.25"
        inkscape:export-ydpi="47.25" />
     <path
        sodipodi:type="arc"
-       style="opacity:1;fill:#2b8224;fill-opacity:1;stroke:none"
+       style="fill:#2b8224;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path4421-7"
        sodipodi:cx="2376.4834"
        sodipodi:cy="-885.07416"
        sodipodi:rx="53.137352"
        sodipodi:ry="53.137352"
-       d="m 2429.6208,-885.07416 c 0,29.34695 -23.7905,53.13735 -53.1374,53.13735 -29.347,0 -53.1374,-23.7904 -53.1374,-53.13735 0,-29.34695 23.7904,-53.13735 53.1374,-53.13735 29.3469,0 53.1374,23.7904 53.1374,53.13735 z"
-       transform="translate(-1366.9804,1674.229)"
+       d="m 2429.6208,-885.07416 a 53.137352,53.137352 0 1 1 -106.2748,0 53.137352,53.137352 0 1 1 106.2748,0 z"
+       transform="translate(-1366.9804,1673.229)"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
        inkscape:export-xdpi="47.25"
        inkscape:export-ydpi="47.25" />
     <path
        sodipodi:type="arc"
-       style="opacity:1;fill:#154b99;fill-opacity:1;stroke:none"
+       style="fill:#154b99;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        id="path4421-1"
        sodipodi:cx="2376.4834"
        sodipodi:cy="-885.07416"
        sodipodi:rx="53.137352"
        sodipodi:ry="53.137352"
-       d="m 2429.6208,-885.07416 c 0,29.34695 -23.7905,53.13735 -53.1374,53.13735 -29.347,0 -53.1374,-23.7904 -53.1374,-53.13735 0,-29.34695 23.7904,-53.13735 53.1374,-53.13735 29.3469,0 53.1374,23.7904 53.1374,53.13735 z"
-       transform="translate(-1484.5609,1556.6484)"
+       d="m 2429.6208,-885.07416 a 53.137352,53.137352 0 1 1 -106.2748,0 53.137352,53.137352 0 1 1 106.2748,0 z"
+       transform="translate(-1483.5609,1556.6484)"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
        inkscape:export-xdpi="47.25"
        inkscape:export-ydpi="47.25" />
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b4b5ba;fill-opacity:1;stroke:none;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b4b5ba;fill-opacity:1;stroke:#000000;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold;stroke-opacity:1"
        x="105.99039"
        y="253.31134"
        id="text4455"
@@ -374,7 +1106,7 @@
          y="253.31134">LT</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b4b5ba;fill-opacity:1;stroke:none;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b4b5ba;fill-opacity:1;stroke:#000000;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold;stroke-opacity:1"
        x="986.9187"
        y="253.31134"
        id="text4459"
@@ -388,8 +1120,8 @@
          y="253.31134">RT</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:53.33333205999999649px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.59999999999999998;fill:#ffffff;fill-opacity:1;stroke:#000000;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-       x="1105.9369"
+       style="font-size:53.33333205999999649px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:0.58823532;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
+       x="1104.9369"
        y="692.32092"
        id="text4463"
        sodipodi:linespacing="125%"
@@ -398,13 +1130,13 @@
        inkscape:export-ydpi="47.25"><tspan
          sodipodi:role="line"
          id="tspan4465"
-         x="1105.9369"
+         x="1104.9369"
          y="692.32092">B</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:53.33333205999999649px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.59999999999999998;fill:#ffffff;fill-opacity:1;stroke:#000000;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-size:53.33333205999999649px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:0.58823532;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
        x="987.04968"
-       y="809.90149"
+       y="808.90149"
        id="text4463-2"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
@@ -413,12 +1145,12 @@
          sodipodi:role="line"
          id="tspan4465-6"
          x="987.04968"
-         y="809.90149">A</tspan></text>
+         y="808.90149">A</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:53.33333205999999649px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.59999999999999998;fill:#ffffff;fill-opacity:1;stroke:#000000;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-size:53.33333205999999649px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:0.58823532;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
        x="989.263"
-       y="574.74042"
+       y="575.74042"
        id="text4463-5"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
@@ -427,11 +1159,11 @@
          sodipodi:role="line"
          id="tspan4465-7"
          x="989.263"
-         y="574.74042">Y</tspan></text>
+         y="575.74042">Y</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:53.33333205999999649px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.59999999999999998;fill:#ffffff;fill-opacity:1;stroke:#000000;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold;stroke-opacity:1;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none"
-       x="871.49585"
+       style="font-size:53.33333205999999649px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:0.58823532;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
+       x="872.49585"
        y="692.32092"
        id="text4463-52"
        sodipodi:linespacing="125%"
@@ -440,7 +1172,7 @@
        inkscape:export-ydpi="47.25"><tspan
          sodipodi:role="line"
          id="tspan4465-8"
-         x="871.49585"
+         x="872.49585"
          y="692.32092">X</tspan></text>
     <g
        transform="translate(-1435.4582,371.62122)"
@@ -628,33 +1360,9 @@
          x="679.30316"
          y="640.8277">START</tspan></text>
     <path
-       style="opacity:1;fill:#24272c;fill-opacity:1;stroke:none"
-       d="m 138.49639,562.03215 c -0.08,0.0395 -26.2933,12.9375 -24.5,12.9375 l 24.5,0 0.031,0 24.4687,0 c 1.7934,0 -24.3884,-12.89805 -24.4687,-12.9375 -1e-4,-6e-5 -0.031,0 -0.031,0 z"
-       id="path3095"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
-       inkscape:export-xdpi="47.25"
-       inkscape:export-ydpi="47.25" />
-    <path
-       style="opacity:1;fill:#24272c;fill-opacity:1;stroke:none"
-       d="m 138.49639,788.59409 c -0.08,-0.0395 -26.2933,-12.9375 -24.5,-12.9375 l 24.5,0 0.031,0 24.4687,0 c 1.7934,0 -24.3884,12.89805 -24.4687,12.9375 -1e-4,6e-5 -0.031,0 -0.031,0 z"
-       id="path3095-0"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
-       inkscape:export-xdpi="47.25"
-       inkscape:export-ydpi="47.25" />
-    <path
-       style="opacity:1;fill:#24272c;fill-opacity:1;stroke:none"
-       d="m 24.652627,675.31321 c 0.0395,-0.08 12.9375,-26.2933 12.9375,-24.5 l 0,24.5 0,0.031 0,24.4687 c 0,1.7934 -12.89805,-24.3884 -12.9375,-24.4687 -6e-5,-10e-5 0,-0.031 0,-0.031 z"
-       id="path3095-0-0"
-       inkscape:connector-curvature="0"
-       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
-       inkscape:export-xdpi="47.25"
-       inkscape:export-ydpi="47.25" />
-    <path
-       style="opacity:1;fill:#24272c;fill-opacity:1;stroke:none"
-       d="m 252.33997,675.31321 c -0.0395,-0.08 -12.9375,-26.29329 -12.9375,-24.49999 l 0,24.49999 0,0.031 0,24.4687 c 0,1.7934 12.89805,-24.3884 12.9375,-24.4687 6e-5,-10e-5 0,-0.031 0,-0.031 z"
-       id="path3095-0-0-2"
+       style="fill:#10131a;fill-opacity:1;stroke:none"
+       d="m 138.51072,554.06626 c -1.5477,0 -3.09073,0.0358 -4.62452,0.093 -0.20788,0.008 -0.41317,0.0225 -0.62075,0.031 -1.09033,0.0447 -2.1761,0.11338 -3.25888,0.18623 -0.23708,0.016 -0.47733,0.0134 -0.71391,0.031 -0.61003,0.0458 -1.22372,0.10044 -1.83126,0.15519 -0.91314,0.0824 -1.8239,0.17689 -2.73129,0.27934 -0.0101,9.9e-4 -0.0208,-10e-4 -0.0308,0 -1.39356,0.15658 -2.78015,0.35563 -4.15901,0.55867 -0.1024,0.0152 -0.20808,0.0156 -0.31038,0.031 -0.0625,0.007 -0.12414,0.0216 -0.18622,0.031 -1.14188,0.1745 -2.28297,0.38357 -3.41412,0.5897 -0.41495,0.0751 -0.82792,0.14652 -1.24149,0.21727 -0.23857,0.046 -0.47584,0.0768 -0.71392,0.12415 -0.40551,0.0809 -0.80627,0.16337 -1.2104,0.24829 -0.47574,0.0997 -0.95407,0.2051 -1.42772,0.31038 -0.53841,0.12193 -1.07822,0.24293 -1.61395,0.37245 -0.73725,0.17445 -1.47172,0.37083 -2.20371,0.55868 -0.0218,0.006 -0.0397,0.0254 -0.0616,0.031 -0.87113,0.22408 -1.74375,0.43998 -2.60713,0.68281 -0.0726,0.0203 -0.14481,0.0415 -0.21732,0.062 -0.27809,0.079 -0.55738,0.1662 -0.83806,0.2483 -0.55847,0.16259 -1.12082,0.32621 -1.67592,0.49659 l 0,67.84779 c 0,6.85416 -5.498777,12.38393 -12.353029,12.38393 l -67.878774,0 c -0.07648,0.24748 -0.142723,0.49677 -0.217213,0.7449 -0.0099,0.0218 -0.02482,0.0403 -0.03079,0.062 -0.342951,1.14374 -0.652332,2.28739 -0.96211,3.44516 -0.356161,1.32996 -0.712519,2.6873 -1.024284,4.03486 0,0.0101 0,0.0212 0,0.031 -0.02185,0.0927 -0.04072,0.1866 -0.06158,0.27933 0,0.0101 0,0.0211 0,0.031 -0.200029,0.87672 -0.403834,1.75554 -0.58976,2.63819 -0.04072,0.19709 -0.08442,0.39249 -0.12415,0.5897 -0.02284,0.11352 -0.03973,0.22772 -0.06158,0.34142 -0.105378,0.53544 -0.181259,1.07602 -0.279387,1.61394 -0.2043,1.12115 -0.416149,2.25133 -0.589661,3.38308 0,0.0101 0,0.0209 0,0.031 -0.02682,0.17543 -0.03576,0.35196 -0.06257,0.52763 -0.196554,1.32429 -0.374237,2.63484 -0.527586,3.9728 -0.0099,0.0729 -0.02285,0.14426 -0.03079,0.21726 -0.0099,0.0519 -0.02482,0.1029 -0.03079,0.15518 -0.01688,0.1533 -0.0149,0.31169 -0.03079,0.46557 -0.02482,0.23905 -0.06853,0.47662 -0.09336,0.71385 l 0,0.031 c -0.102498,1.00871 -0.201917,1.99477 -0.279387,3.01063 -6.95e-4,0.0102 7.95e-4,0.0207 0,0.031 0,0.0308 0,0.0623 0,0.0931 -0.114614,1.52204 -0.190296,3.05593 -0.248299,4.59353 -0.05661,1.50666 -0.09138,3.01099 -0.09336,4.53147 0,0.0208 0,0.0412 0,0.062 l 0,0.031 c 0,0.0103 0,0.0206 0,0.031 l 0,0.031 c 0,0.0208 0,0.0412 0,0.062 0,1.52046 0.03576,3.02479 0.09336,4.53146 0.0576,1.5376 0.133685,3.07148 0.248299,4.59354 0,0.0307 0,0.0624 0,0.0931 8.94e-4,0.0102 -6.95e-4,0.0209 0,0.031 0.07747,1.01587 0.176889,2.00192 0.279387,3.01063 0,0.0103 0,0.0208 0,0.031 0.02383,0.23724 0.06753,0.4748 0.09336,0.71387 0.01688,0.15387 0.0139,0.31225 0.03079,0.46556 0.0139,0.12482 0.04767,0.24773 0.06158,0.37245 0.153349,1.33795 0.331032,2.64851 0.527586,3.97278 0.02682,0.17483 0.03576,0.35244 0.06257,0.52764 0,0.0101 0,0.0209 0,0.031 0.173512,1.13175 0.385361,2.26192 0.589661,3.38308 0.06158,0.34199 0.12127,0.68301 0.186226,1.02423 0.03278,0.19613 0.05462,0.39457 0.09336,0.58971 0.02185,0.11369 0.03874,0.2279 0.06158,0.34141 0.03973,0.19722 0.08343,0.39261 0.12415,0.58972 0.185926,0.88263 0.38973,1.76145 0.58976,2.63817 l 0,0.031 c 0.02186,0.0928 0.04072,0.18668 0.06158,0.27934 0,0.0101 0,0.0212 0,0.031 0.311764,1.34755 0.668123,2.7049 1.024283,4.03486 0.309779,1.15776 0.61916,2.30142 0.962111,3.44515 0.0099,0.0218 0.02483,0.0403 0.03079,0.062 0.07449,0.24812 0.140736,0.49742 0.217212,0.7449 l 67.878775,0 c 6.854351,0 12.353031,5.52977 12.353031,12.38392 l 0,67.84779 c 0.5551,0.17038 1.11745,0.334 1.67591,0.4966 0.28069,0.0821 0.55998,0.16931 0.83806,0.2483 0.0725,0.0205 0.14481,0.0417 0.21732,0.062 0.86339,0.24283 1.73601,0.45874 2.60714,0.68282 0.0218,0.006 0.0397,0.0254 0.0616,0.031 0.73198,0.18784 1.46644,0.38422 2.2037,0.55867 0.53573,0.12953 1.07553,0.25053 1.61394,0.37246 0.47365,0.10527 0.95198,0.21064 1.42773,0.31037 0.40413,0.085 0.80488,0.16736 1.2104,0.2483 0.23728,0.047 0.47614,0.0836 0.71392,0.12414 0.41356,0.0707 0.82653,0.14217 1.24149,0.21727 1.13115,0.20613 2.27224,0.4152 3.41412,0.58972 0.0625,0.0101 0.12394,0.0216 0.18622,0.031 0.10329,0.0119 0.20757,0.0159 0.31037,0.031 1.37886,0.20305 2.76546,0.4021 4.15902,0.55868 0.0101,9.9e-4 0.0208,-9.9e-4 0.0308,0 0.90738,0.10245 1.81815,0.197 2.73129,0.27934 0.60754,0.0549 1.22124,0.10938 1.83125,0.15519 0.23658,0.0176 0.47684,0.015 0.71392,0.031 1.08278,0.0727 2.16855,0.14152 3.25888,0.18622 0.20757,0.009 0.41287,0.0233 0.62075,0.031 1.53379,0.0573 3.07682,0.0931 4.62452,0.0931 1.24248,0 2.49113,-0.0251 3.72448,-0.062 0.29936,-0.0101 0.6008,-0.0198 0.90014,-0.031 0.20878,-0.008 0.41228,-0.0221 0.62075,-0.031 1.09023,-0.0448 2.17639,-0.11306 3.25898,-0.18622 0.23727,-0.0164 0.47683,-0.0132 0.71381,-0.031 0.42419,-0.0319 0.84959,-0.0879 1.27258,-0.12416 1.04733,-0.0938 2.09952,-0.16278 3.13474,-0.27933 0.0516,-0.006 0.10319,-0.0252 0.15513,-0.031 0.0101,-10e-4 0.0208,9.9e-4 0.0308,0 1.49496,-0.1697 2.96032,-0.36599 4.4383,-0.58971 0.0101,-0.002 0.0208,0.002 0.0308,0 1.18608,-0.17996 2.36381,-0.37533 3.53827,-0.58971 0.0318,-0.006 0.0616,-0.0253 0.0934,-0.031 0.28933,-0.0529 0.57904,-0.10451 0.86905,-0.15519 0.17491,-0.0332 0.35289,-0.0591 0.52759,-0.093 0.12584,-0.0246 0.24681,-0.0679 0.37245,-0.0931 1.13224,-0.22664 2.26181,-0.45767 3.38303,-0.71386 0.0715,-0.0162 0.1455,-0.0172 0.21731,-0.031 0.0318,-0.007 0.0615,-0.0237 0.0934,-0.031 0.0417,-0.0101 0.0825,-0.0213 0.12414,-0.031 1.30627,-0.3046 2.62165,-0.64811 3.91062,-0.99319 1.38005,-0.3694 2.73656,-0.76306 4.09694,-1.17942 0.0506,-0.0154 0.10459,-0.0155 0.15524,-0.031 l 0,-67.87883 c 0,-6.85417 5.52972,-12.35289 12.38388,-12.35289 l 67.84788,0 c 0.20957,-0.68155 0.4229,-1.36187 0.62075,-2.04847 0.0417,-0.14352 0.0834,-0.29077 0.12415,-0.43452 0.0407,-0.14496 0.0835,-0.28934 0.12415,-0.43452 0.22804,-0.81521 0.44028,-1.62991 0.65173,-2.45196 0.4096,-1.59134 0.80251,-3.19494 1.14834,-4.8108 0.0755,-0.35084 0.14481,-0.70331 0.21731,-1.05527 0.0586,-0.28725 0.0983,-0.58106 0.15514,-0.86905 0.10777,-0.54617 0.21007,-1.09619 0.31048,-1.64498 0.0288,-0.15556 0.0656,-0.3098 0.0934,-0.46557 0.17788,-0.995 0.34314,-1.97635 0.49659,-2.97959 0.0109,-0.0727 0.0199,-0.14436 0.0308,-0.21726 0.22326,-1.49025 0.42091,-2.99297 0.58965,-4.50042 0.0527,-0.47166 0.10459,-0.95238 0.15524,-1.42773 0.0259,-0.25797 0.0685,-0.51749 0.0934,-0.77593 0.0745,-0.73579 0.13051,-1.46784 0.18622,-2.20366 8e-4,-0.0102 -7.9e-4,-0.0207 0,-0.031 l 0,-0.12414 c 0.11333,-1.52352 0.19169,-3.05511 0.2483,-4.59354 0.0566,-1.52811 0.0924,-3.05184 0.0934,-4.59354 l 0,-0.031 c -3.9e-4,-1.5417 -0.0368,-3.06543 -0.0934,-4.59353 -0.0566,-1.53844 -0.13497,-3.07002 -0.2483,-4.59354 0,-0.0411 1e-4,-0.0828 0,-0.12415 -0.0566,-0.74568 -0.1159,-1.49283 -0.18622,-2.23469 -0.0745,-0.73579 -0.16675,-1.47534 -0.2483,-2.20366 -0.16875,-1.50745 -0.36639,-3.01017 -0.58966,-4.50042 -0.16258,-1.07643 -0.33718,-2.12991 -0.52768,-3.19685 -0.0278,-0.15577 -0.0646,-0.31002 -0.0934,-0.46557 -0.0101,-0.0319 -0.0249,-0.0612 -0.0308,-0.093 -0.0944,-0.51564 -0.17818,-1.03853 -0.27938,-1.55188 -0.25198,-1.27834 -0.51507,-2.55398 -0.80688,-3.8176 -0.22575,-0.97766 -0.46481,-1.94905 -0.7139,-2.91751 -0.21146,-0.82205 -0.4236,-1.63675 -0.65174,-2.45196 -0.0407,-0.14567 -0.0835,-0.28908 -0.12415,-0.43452 -0.0407,-0.14375 -0.0824,-0.291 -0.12415,-0.43452 -0.19596,-0.67987 -0.41357,-1.37358 -0.62075,-2.04847 l -67.84789,0 c -6.85415,0 -12.38388,-5.49872 -12.38388,-12.35289 l 0,-67.87883 c -0.0506,-0.0155 -0.10488,-0.0156 -0.15523,-0.031 -1.36038,-0.41636 -2.71689,-0.81002 -4.09693,-1.17942 -1.28898,-0.34508 -2.60437,-0.68859 -3.91062,-0.9932 -0.0417,-0.0101 -0.0825,-0.0214 -0.12416,-0.031 -0.10249,-0.0236 -0.20796,-0.0386 -0.31047,-0.062 -1.12122,-0.25619 -2.25078,-0.48722 -3.38302,-0.71386 -0.12485,-0.0248 -0.24741,-0.0688 -0.37245,-0.0931 -0.46313,-0.0901 -0.93172,-0.16335 -1.39664,-0.24829 -0.0318,-0.006 -0.0615,-0.0253 -0.0934,-0.031 -1.18021,-0.21432 -2.34643,-0.40982 -3.53826,-0.58971 -0.0101,-0.002 -0.0208,0.002 -0.0308,0 -1.47798,-0.22372 -2.94334,-0.42001 -4.43831,-0.58971 -0.0101,-9.9e-4 -0.0208,0.001 -0.0308,0 -0.0516,-0.006 -0.10309,-0.0253 -0.15514,-0.031 -1.03521,-0.11655 -2.0874,-0.18554 -3.13473,-0.27933 -0.423,-0.0363 -0.84839,-0.0922 -1.27258,-0.12416 -0.23698,-0.0178 -0.47653,-0.0146 -0.71381,-0.031 -1.08258,-0.0732 -2.16875,-0.14145 -3.25898,-0.18622 -0.20848,-0.009 -0.41198,-0.0232 -0.62075,-0.031 -1.53757,-0.0579 -3.07236,-0.0931 -4.62463,-0.0931 z"
+       id="path4323"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
        inkscape:export-xdpi="47.25"
@@ -677,11 +1385,43 @@
        inkscape:export-xdpi="47.25"
        inkscape:export-ydpi="47.25" />
     <path
+       style="fill:#24272c;fill-opacity:1;stroke:none"
+       d="m 252.33997,675.31308 c -0.0395,-0.08 -12.9375,-26.29329 -12.9375,-24.49999 l 0,24.49999 0,0.031 0,24.4687 c 0,1.7934 12.89805,-24.3884 12.9375,-24.4687 6e-5,-10e-5 0,-0.031 0,-0.031 z"
+       id="path3095-0-0-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <path
        style="fill:#84858a;fill-opacity:1;stroke:none"
        d="m 132.75234,902.84927 c 20.8163,0 40.97977,-2.78605 60.13949,-8.00536 l 1.4525,-3.32198 c -18.39656,4.78222 -37.69596,7.32734 -57.59199,7.32734 -126.110961,0 -228.343751,-102.23279 -228.343751,-228.34375 0,-62.0425 24.74878,-118.28332 64.90625,-159.4375 -42.50762,41.46989 -68.90625,99.36083 -68.90625,163.4375 0,126.11096 102.23279,228.34375 228.343751,228.34375 z"
        id="path4164-3-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sccsscss"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <path
+       style="fill:#24272c;fill-opacity:1;stroke:none"
+       d="m 138.49649,788.59409 c -0.08,-0.0395 -26.2933,-12.9375 -24.5,-12.9375 l 24.5,0 0.031,0 24.4687,0 c 1.7934,0 -24.3884,12.89805 -24.4687,12.9375 -1e-4,6e-5 -0.031,0 -0.031,0 z"
+       id="path3095-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <path
+       style="fill:#24272c;fill-opacity:1;stroke:none"
+       d="m 24.652627,675.31309 c 0.0395,-0.08 12.9375,-26.2933 12.9375,-24.5 l 0,24.5 0,0.031 0,24.4687 c 0,1.7934 -12.89805,-24.3884 -12.9375,-24.4687 -6e-5,-1e-4 0,-0.031 0,-0.031 z"
+       id="path3095-0-0"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <path
+       style="fill:#24272c;fill-opacity:1;stroke:none"
+       d="m 138.49649,562.03215 c -0.08,0.0395 -26.2933,12.9375 -24.5,12.9375 l 24.5,0 0.031,0 24.4687,0 c 1.7934,0 -24.3884,-12.89805 -24.4687,-12.9375 -1e-4,-6e-5 -0.031,0 -0.031,0 z"
+       id="path3095"
+       inkscape:connector-curvature="0"
        inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
        inkscape:export-xdpi="47.25"
        inkscape:export-ydpi="47.25" />
@@ -779,5 +1519,234 @@
          id="tspan4431"
          x="-1758.9585"
          y="783.31201">Disconnected</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#efece5;fill-opacity:1;stroke:none"
+       id="path4421-6"
+       sodipodi:cx="2376.4834"
+       sodipodi:cy="-885.07416"
+       sodipodi:rx="53.137352"
+       sodipodi:ry="53.137352"
+       d="m 2429.6208,-885.07416 a 53.137352,53.137352 0 1 1 -106.2748,0 53.137352,53.137352 0 1 1 106.2748,0 z"
+       transform="translate(-1823.3237,485.64211)"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#efece5;fill-opacity:1;stroke:none"
+       id="path4421-3-5"
+       sodipodi:cx="2376.4834"
+       sodipodi:cy="-885.07416"
+       sodipodi:rx="53.137352"
+       sodipodi:ry="53.137352"
+       d="m 2429.6208,-885.07416 a 53.137352,53.137352 0 1 1 -106.2748,0 53.137352,53.137352 0 1 1 106.2748,0 z"
+       transform="translate(-1823.3237,611.91682)"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#efece5;fill-opacity:1;stroke:none"
+       id="path4421-7-7"
+       sodipodi:cx="2376.4834"
+       sodipodi:cy="-885.07416"
+       sodipodi:rx="53.137352"
+       sodipodi:ry="53.137352"
+       d="m 2429.6208,-885.07416 a 53.137352,53.137352 0 1 1 -106.2748,0 53.137352,53.137352 0 1 1 106.2748,0 z"
+       transform="translate(-1953.9976,611.91682)"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#efece5;fill-opacity:1;stroke:none"
+       id="path4421-1-7"
+       sodipodi:cx="2376.4834"
+       sodipodi:cy="-885.07416"
+       sodipodi:rx="53.137352"
+       sodipodi:ry="53.137352"
+       d="m 2429.6208,-885.07416 a 53.137352,53.137352 0 1 1 -106.2748,0 53.137352,53.137352 0 1 1 106.2748,0 z"
+       transform="translate(-1953.9976,485.64211)"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <text
+       xml:space="preserve"
+       style="font-size:53.33333206px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b02227;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
+       x="532.01306"
+       y="-252.41068"
+       id="text4463-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25"><tspan
+         sodipodi:role="line"
+         id="tspan4465-62"
+         x="532.01306"
+         y="-252.41068">B</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:53.33333206px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2b8224;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
+       x="400.03247"
+       y="-252.41068"
+       id="text4463-2-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25"><tspan
+         sodipodi:role="line"
+         id="tspan4465-6-9"
+         x="400.03247"
+         y="-252.41068">A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:53.33333206px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f69621;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
+       x="532.91968"
+       y="-378.68536"
+       id="text4463-5-5"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25"><tspan
+         sodipodi:role="line"
+         id="tspan4465-7-9"
+         x="532.91968"
+         y="-378.68536">Y</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:53.33333206px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#154b99;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
+       x="402.05914"
+       y="-378.68536"
+       id="text4463-52-6"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25"><tspan
+         sodipodi:role="line"
+         id="tspan4465-8-5"
+         x="402.05914"
+         y="-378.68536">X</tspan></text>
+    <g
+       id="g4023"
+       transform="translate(-1043.0731,-220.75835)"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25">
+      <path
+         inkscape:export-ydpi="47.25"
+         inkscape:export-xdpi="47.25"
+         inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
+         sodipodi:nodetypes="csccscc"
+         inkscape:connector-curvature="0"
+         id="path4356-5-2"
+         d="m 1276.5545,70.439567 c -14.8512,0 -26.9062,12.05504 -26.9062,26.90625 0,14.851213 12.055,26.875003 26.9062,26.875003 l 28,0 c 14.8512,0 26.875,-12.02379 26.875,-26.875003 0,-14.85121 -12.0238,-26.90625 -26.875,-26.90625 z"
+         style="fill:#10131a;fill-opacity:1;stroke:none;filter:url(#filter4188)" />
+    </g>
+    <path
+       style="fill:#10131a;fill-opacity:1;stroke:none;filter:url(#filter4131)"
+       d="m 48.449368,-269.60093 140.889112,0 c 0,0 4.89401,-111.70536 1.51495,-126.4972 -2.23471,-9.78236 -3.95129,-19.8068 -7.79125,-29.07732 -2.45811,-5.9344 -5.18023,-12.06082 -9.63502,-16.68834 -4.13658,-4.29698 -9.45437,-7.74246 -15.14487,-9.52955 -6.12361,-1.92311 -28.43579,-1.35871 -42.41824,0.75746 -8.05859,1.21964 -16.364342,2.84553 -23.481522,6.81722 -6.24397,3.4844 -11.49658,8.76359 -15.90683,14.39192 -4.59868,5.86882 -7.78467,12.79206 -10.60455,19.69418 -3.77769,9.24658 -6.52807,18.95957 -8.33216,28.78378 -6.726,36.62698 -9.08962,111.34785 -9.08962,111.34785 z"
+       id="path4046-1-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsssssssssc"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <path
+       style="fill:#10131a;fill-opacity:1;stroke:none;filter:url(#filter4149)"
+       d="m 350.16878,-269.60093 -140.88911,0 c 0,0 -4.89401,-111.70536 -1.51495,-126.4972 2.23471,-9.78236 3.95129,-19.8068 7.79125,-29.07732 2.45811,-5.93441 5.18023,-12.06082 9.63502,-16.68834 4.13658,-4.29698 9.45437,-7.74246 15.14487,-9.52955 6.12361,-1.92311 28.43576,-1.35871 42.41826,0.75746 8.0586,1.21964 16.3643,2.84553 23.4815,6.81722 6.244,3.4844 11.4966,8.76358 15.9069,14.39192 4.59856,5.86882 7.78456,12.79206 10.60446,19.69418 3.7777,9.24658 6.5281,18.95957 8.3322,28.78378 6.726,36.62698 9.0896,111.34785 9.0896,111.34785 z"
+       id="path4046-1-7-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccsssssssssc"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <path
+       style="fill:#24272c;fill-opacity:1;stroke:none;filter:url(#filter4125)"
+       d="m 60.537788,-293.57004 115.519392,0 c 0,0 -1.0043,-41.18628 -4.99651,-61.35718 -1.93892,-9.79587 -3.01472,-19.43705 -8.79387,-27.58076 -4.88966,-6.89028 -11.16357,-12.74057 -19.18661,-15.38926 -10.25155,-3.3844 -22.3478,-2.28883 -32.97699,-0.39972 -7.75766,1.37876 -15.592822,3.60009 -22.384382,7.5947 -4.95976,2.9172 -9.61542,6.79352 -12.79107,11.59191 -3.58139,5.41145 -4.86364,12.08135 -6.39554,18.38717 -2.0017,8.23971 -2.55599,16.76727 -3.59749,25.18243 -1.7278,13.96028 -4.39693,41.97071 -4.39693,41.97071 z"
+       id="path4162-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssssssssc"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <path
+       style="fill:#24272c;fill-opacity:1;stroke:none;filter:url(#filter4143)"
+       d="m 338.79468,-293.57004 -115.51934,0 c 0,0 1.0043,-41.18628 4.99651,-61.35718 1.93892,-9.79587 3.01472,-19.43705 8.79387,-27.58076 4.88966,-6.89028 11.16357,-12.74057 19.18661,-15.38926 10.25159,-3.3844 22.34779,-2.28883 32.97699,-0.39972 7.7577,1.37876 15.5928,3.60009 22.3844,7.5947 4.9598,2.9172 9.6154,6.79352 12.79106,11.59191 3.5814,5.41145 4.8636,12.08135 6.3955,18.38717 2.0017,8.23971 2.556,16.76727 3.5975,25.18242 1.7278,13.96029 4.3969,41.97072 4.3969,41.97072 z"
+       id="path4162-3-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccssssssssc"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b4b5ba;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold;filter:url(#filter4119)"
+       x="94.978111"
+       y="-305.57007"
+       id="text4455-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25"><tspan
+         sodipodi:role="line"
+         id="tspan4457-0"
+         x="94.978111"
+         y="-305.57007">LT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#b4b5ba;fill-opacity:1;stroke:#ffffff;stroke-opacity:1;filter:url(#filter4137);font-family:HighlandGothicFLF;-inkscape-font-specification:HighlandGothicFLF Bold"
+       x="251.73911"
+       y="-305.57007"
+       id="text4459-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25"><tspan
+         sodipodi:role="line"
+         id="tspan4461-3"
+         x="251.73911"
+         y="-305.57007">RT</tspan></text>
+    <path
+       style="fill:#10131a;fill-opacity:1;stroke:none;filter:url(#filter4182)"
+       d="m 207.1485,-215.08515 c 0,0 15.74809,-4.59916 23.78341,-6.19567 12.40139,-2.464 24.9973,-3.89344 37.57378,-5.19638 12.48766,-1.29373 25.02077,-2.40481 37.57378,-2.59819 12.19896,-0.18791 24.38281,0.93726 36.57448,1.39903 5.32954,0.20186 15.98884,0.59958 15.98884,0.59958 0,0 -0.096,-14.6393 -0.79944,-17.38787 -0.79786,-3.1177 -13.2376,-10.62265 -20.98536,-13.79037 -3.43307,-1.40364 -32.60984,0.95746 -50.36486,2.59818 -19.30775,1.78422 -46.37399,5.81293 -58.55913,10.79247 -3.44004,1.4058 -18.36811,14.65917 -20.98536,19.7862 -0.94411,1.84946 0.19986,9.99302 0.19986,9.99302 z"
+       id="path4160-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssscsssssc"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25" />
+    <image
+       y="408.26944"
+       x="2590.9224"
+       id="image4294"
+       xlink:href="file:///home/sk/Downloads/logitech-logitech-wireless-gamepad-f710-wireless-gamepad-original-imad7syqehey9g36.jpeg"
+       height="961"
+       width="1500" />
+    <g
+       id="g5136"
+       transform="translate(95.949367,-165.26308)"
+       inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/pressed_buttons.png"
+       inkscape:export-xdpi="47.25"
+       inkscape:export-ydpi="47.25">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4166-3-2"
+         d="m 35.281251,-93.4198 -82.78125,82.78125 82.78125,82.78125 c 21.18498,-21.18498 34.28125,-50.45406 34.28125,-82.78125 0,-32.32719 -13.09627,-61.59627 -34.28125,-82.78125 z"
+         style="fill:#24272c;fill-opacity:1;stroke:none;filter:url(#filter5130)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4323-7-9"
+         d="M -8.1874987,-49.9198 -47.499999,-10.63855 -8.1874987,28.6427 c 2.2392,-2.23145 5.32292,-3.59375 8.74999998,-3.59375 l 67.84374972,0 c 0.20957,-0.68155 0.42715,-1.3759 0.625,-2.0625 0.0417,-0.14352 0.0842,-0.29375 0.125,-0.4375 0.0407,-0.14496 0.0843,-0.29232 0.125,-0.4375 0.22804,-0.81521 0.4448,-1.61545 0.65625,-2.4375 0.4096,-1.59134 0.77917,-3.19664 1.125,-4.8125 0.0755,-0.35084 0.14625,-0.71054 0.21875,-1.0625 0.0586,-0.28725 0.0994,-0.58701 0.15625,-0.875 0.10777,-0.54617 0.21209,-1.07621 0.3125,-1.625 0.0288,-0.15556 0.0659,-0.31298 0.0937,-0.46875 0.17788,-0.9950002 0.34655,-1.9967602 0.5,-3.0000002 0.0109,-0.0727 0.0204,-0.1146 0.0312,-0.1875 0.22326,-1.49025 0.42501,-2.99255 0.59375,-4.5 0.0527,-0.47166 0.1056,-0.96215 0.15625,-1.4375 0.0259,-0.25797 0.0688,-0.52281 0.0937,-0.78124997 0.0745,-0.73579 0.13179,-1.48293 0.1875,-2.21875003 8e-4,-0.0102 -7.9e-4,-0.02095 0,-0.03125 l 0,-0.09375 c 0.11333,-1.52352 0.19339,-3.05532 0.25,-4.59375 0.0566,-1.52811 0.0928,-3.05205 0.0937,-4.5937498 l 0,-0.03125 c -3.9e-4,-1.5417 -0.0371,-3.06565 -0.0937,-4.59375 -0.0566,-1.53844 -0.13667,-3.07023 -0.25,-4.59375 0,-0.0411 10e-5,-0.08365 0,-0.125 -0.0566,-0.74568 -0.11718,-1.50814 -0.1875,-2.25 -0.0745,-0.73579 -0.16845,-1.45918 -0.25,-2.1875 -0.16875,-1.50745 -0.37048,-3.00975 -0.59375,-4.5 -0.16258,-1.07643 -0.34075,-2.15181 -0.53125,-3.21875 -0.0278,-0.15577 -0.065,-0.3132 -0.0937,-0.46875 -0.0101,-0.0319 -0.0254,-0.06195 -0.0312,-0.09375 -0.0944,-0.51564 -0.18005,-1.0179 -0.28125,-1.53125 -0.25198,-1.27834 -0.48944,-2.54888 -0.78125,-3.8125 -0.22575,-0.97766 -0.46966,-1.96904 -0.71875,-2.9375 -0.21146,-0.82205 -0.42811,-1.62229 -0.65625,-2.4375 -0.0407,-0.14567 -0.0843,-0.29206 -0.125,-0.4375 -0.0407,-0.14375 -0.0833,-0.29398 -0.125,-0.4375 -0.19596,-0.67987 -0.41782,-1.38761 -0.625,-2.0625 l -67.84374972,0 c -3.42707998,0 -6.51079998,-1.3623 -8.74999998,-3.59375 z"
+         style="fill:#10131a;fill-opacity:1;stroke:none;filter:url(#filter5124)" />
+      <path
+         inkscape:export-ydpi="47.25"
+         inkscape:export-xdpi="47.25"
+         inkscape:export-filename="/home/sk/coding/custom-gamepadviewer-skins/f710/img/base.png"
+         inkscape:connector-curvature="0"
+         id="path3095-0-0-2-3-1"
+         d="m 66.343651,-10.637588 c -0.0395,-0.08 -12.9375,-26.29329 -12.9375,-24.49999 l 0,24.49999 0,0.031 0,24.4687 c 0,1.7934 12.89805,-24.3884 12.9375,-24.4687 6e-5,-10e-5 0,-0.031 0,-0.031 z"
+         style="fill:#24272c;fill-opacity:1;stroke:none;filter:url(#filter5118)" />
+    </g>
   </g>
 </svg>
