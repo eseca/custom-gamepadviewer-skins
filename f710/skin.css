@@ -7,10 +7,10 @@
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
     background: url(img/base.png); 
-    height: 558px;
+    height: 592px;
     width: 784px;
     margin-left: -392px; /* This is half of the skin's width to help center it on the screen */ 
-    margin-top: -259px; /* Normally half the skin's height, but may be a little more or less 
+    margin-top: -296px; /* Normally half the skin's height, but may be a little more or less 
     to account for the bar on the top of the page */
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
