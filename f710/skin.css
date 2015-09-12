@@ -230,7 +230,7 @@ the CSS inline. */
 }
 .custom .face.right{
     top: 20px;
-    right: 0px;
+    right: -1px;
 }
 .custom .face.pressed{
     background: url(img/pressed_buttons.png);
