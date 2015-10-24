@@ -38,83 +38,83 @@ do so via my Imraising page: https://imraising.tv/u/mrmcpowned
 /*BEGIN PS3 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
-    /* The background image is basically the base for the controller's skin. The 
-    PS3 controller's skin can be found at http://mrmcpowned.com/gamepad/ps3-assets/base.png
-    and you can observe it as an example. The sticks, buttons, and directional arrows are missing
-    because their appropriate elements will be incorperated when their styling is defined below.
-    The entirity of the skin's visual styling is done via background images and CSS sprites. */ 
-    background-image: url(img/base.png); 
+    background: url(drawing/drawing.svg); 
     background-repeat: no-repeat;
-    background-position: center;
-    height: 177px;
-    width: 400px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -88px;
-    margin-left: -200px;
+    background-position: 0px 0px;
+    width: 970px;
+    height: 424px;
+    margin-left: -485px;
+    margin-top: -212px;
 }
-.custom.disconnected { /* This class shows an image when the controller is disconnected */
-    /*background: url(ps3-assets/base-disconnect.png);*/
+.custom.disconnected {
+    background: url(drawing/drawing.svg); 
+    background-position: 0px -424px;
+    background-repeat: no-repeat;
 }
 /* This hides the controller's button when disconnected so only the background image remains */ 
 .custom.disconnected div {
     display: none;
 }
 .custom .triggers{ /* The triggers are housed inside a div, so this sizes the div properly and positions it */
-    display: none;
+    width: 759px;
+    height: 34px;
+    position: absolute;
+    left: 104px;
 }
 .custom .trigger{/* These are the actual triggers themselves */
-    display: none;
+    width: 211px;
+    height: 34px;
+    background: url(drawing/drawing.svg); 
+    background-position: -967px 0px;
+    background-repeat: no-repeat;
+    opacity: 0;
 }
-/* The left and right classes below are used to position the triggers
-within the div they're contained in. Since their positions is realtive
-to the size of the parent element, we simply resize the parent element 
-above to achieve the desired position. */
 .custom .trigger.left{ 
     float: left;
 }
 .custom .trigger.right{
     float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 /* The bumpers follow the same methodology as the triggers in terms of
 placement */
-.custom .bumper{
-    width: 60px;
-    height: 5px;
-}
-.custom .bumpers{
-    position: absolute;
-    width: 258px;
-    height: 20px;
-    left: 71px;
-    top: 2px;
-}
-.custom .bumper.pressed{ /* The '.pressed' class is used for most buttons to signify they've been pressed */
-    background-color: #FFFFFF;
-    -webkit-border-radius: 2px;
-    opacity: 0.8;
-}
-.custom .bumper.left{
-  /* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical
-  and I can just rotate them in the browser? Also, note that you most likely won't need
-  to use a browser speficic prefix unless it's something that is indeed browser specific.
-  NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    float: left;
-}
-.custom .bumper.right{
-    float: right;
-}
+/*.custom .bumper{*/
+    /*width: 89px;*/
+    /*height: 28px;*/
+    /*background: url();*/
+    /*opacity: 0;*/
+/*}*/
+/*.custom .bumpers{*/
+    /*position: absolute;*/
+    /*width: 586px;*/
+    /*height: 28px;*/
+    /*left: 99px;*/
+    /*top: 72px;*/
+/*}*/
+/*.custom .bumper.pressed{ [> The '.pressed' class is used for most buttons to signify they've been pressed <]*/
+    /*opacity: 1;*/
+/*}*/
+/*.custom .bumper.left{*/
+  /*/* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical*/
+  /*and I can just rotate them in the browser? Also, note that you most likely won't need*/
+  /*to use a browser speficic prefix unless it's something that is indeed browser specific.*/
+  /*NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */*/
+    /*-webkit-transform: rotateY(180deg);*/
+    /*transform: rotateY(180deg);*/
+    /*float: left;*/
+/*}*/
+/*.custom .bumper.right{*/
+    /*float: right;*/
+/*}*/
+
 /* This bit of code is for the player indicator, which is represented in
 quandrants on the xbox controller. That's note what it's called on the
 PS3 controller but it'd be pointless for me to change the HTML for 
 something as pedantic as a name. */
 .custom .quadrant{
     position: absolute;
-    /*background: url(ps3-assets/player-n.png);*/
     height: 17px;
     width: 111px;
     top: 140px;
@@ -139,23 +139,19 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 start and select buttons. */
 .custom .arrows{
     position: absolute;
-    width: 73px;
-    height: 35px;
-    top: 98px;
-    left: 148px;
+    width: 176px;
+    height: 62px;
+    top: 214px;
+    left: 358px;
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    width: 30px;
-    height: 10px;
-    top: 15px;
+    width: 71.5px;
+    height: 61.5px;
 }
 .custom .back.pressed, .custom .start.pressed{
-    -webkit-transform: rotate(142deg);
-    transform: rotate(142deg);
-    -webkit-border-radius: 8px;
-    background-color: #FFFFFF;
-    opacity: 0.6;
+    background: url(drawing/drawing.svg);
+    background-position: -1177.5px 0px;
 }
 .custom .back{
     float: left;
@@ -166,103 +162,112 @@ start and select buttons. */
 /* Positioning and size of the container for the face buttons */
 .custom .abxy{
     position: absolute;
-    width: 110px;
-    height: 92px;
-    top: 44px;
-    left: 260px;
+    width: 259px;
+    height: 218px;
+    top: 105px;
+    left: 633px;
 }
 /* base class used to simplify the sprite mapping */
 .custom .button{
     position: absolute;
-    width:32px;
-    height:32px;
+    width:75px;
+    height:75px;
 }
 .custom .button.pressed{
-    width: 31px;
-    height: 31px;
-    -webkit-border-radius: 16px;
-    background-color: #FFFFFF;
-    opacity: 0.6;
-    /*margin-top: 5px;*/
+    background: url(drawing/drawing.svg);
+    background-position-x: -1249px;
 }
-/* SNES' B button is mapped to Xinput's A button */
 .custom .a{
-    top: 60px;
-    left: 40px;
+    top: 143px;
+    left: 92px;
 }
-/* SNES' A button is mapped to Xinput's B button */
 .custom .b{
-    top: 30px;
+    top: 71px;
     right: 0px;
 }
-/* SNES' Y button is mapped to Xinput's X button */
 .custom .x{
-    top: 30px;
+    top: 71px;
 }
-/* SNES' X button is mapped to Xinput's Y button */
 .custom .y{
-    left: 40px;
+    left: 92px;
 }
 /* Analog sticks follow the same principles as the triggers in terms of positioning
 Note that the rotation of the sticks in hard coded with javascript, so it applies 
 the CSS inline. */
 .custom .sticks{
-    display: none;
+    position: absolute;
+    width: 364px;
+    height: 105px;
+    top: 328px;
+    left: 210px;
 }
 .custom .stick{
-    display: none;
+    position: absolute;
+    height:105px;
+    width: 105px;
 }
 .custom .stick.pressed.left{
-    display: none;
+    background-position-x: -106px;
 }
 .custom .stick.pressed.right{
-    display: none;
+    background-position-x: -211px;
 }
 .custom .stick.left{
-    display: none;
+    top: 0;
+    left: 0;
 }
 .custom .stick.right{
-    display: none;
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
 }
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
-    width: 70px;
-    height: 70px;
-    top: 56px;
-    left: 49px;
+    width: 146px;
+    height: 146px;
+    top: 142px;
+    left: 133px;
 }
 .custom .face{
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
-    width: 19px;
-    height: 19px;
+    width: 33.5px;
+    height: 34px;
 }
 .custom .face.left, .custom .face.right{
-    width: 19px;
-    height: 19px;
+    width: 34px;
+    height: 33.5px;
 }
 .custom .face.up{
-    left: 25px;
-    top: 2px;
+    left: 56px;
+    top: 0;
+    background-position: 92px 0px;
 }
 .custom .face.down{
-    left: 25px;
-    top: 48px;
+    left: 56px;
+    top: 112px;
+    background-position: 131px 0;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
 }
 .custom .face.left{
-    top: 25px;
-    left: 2px;
+    top: 56px;
+    left: 0;
+    background-position: 0px 0;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
 }
 .custom .face.right{
-    top: 25px;
-    right: 3px;
+    top: 56px;
+    right: 0px;
+    background-position: 53px 0;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 .custom .face.pressed{
-    background-color: #FFFFFF;
-    -webkit-border-radius: 2px;
-    opacity: 0.6;
+    background: url(drawing/drawing.svg);
+    background-position-x: -1323px;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
 for '.controller.custom' so when your skin is activated via player selection
