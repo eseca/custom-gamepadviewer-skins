@@ -15,13 +15,36 @@
 .custom.disconnected div {
     display: none;
 }
+/* CLR browser maps SELECT and START to the triggers.
+ * So the following is for the START and SELECT and not
+ * for the triggers.*/
 .custom .triggers{
+    position: absolute;
+    width: 176px;
+    height: 62px;
+    top: 214px;
+    left: 358px;
+}
+.custom .trigger{
+    width: 71.5px;
+    height: 61.5px;
+    background: url(drawing/drawing.svg);
+    background-position: -1177.5px 0px;
+}
+.custom .trigger.left{ 
+    float: left;
+}
+.custom .trigger.right{
+    float: right;
+}
+
+.custom .bumpers{
     width: 759px;
     height: 34px;
     position: absolute;
     left: 104px;
 }
-.custom .trigger{
+.custom .bumper{
     width: 211px;
     height: 34px;
     background: url(drawing/drawing.svg); 
@@ -29,45 +52,17 @@
     background-repeat: no-repeat;
     opacity: 0;
 }
-.custom .trigger.left{ 
+.custom .bumper.pressed{
+    opacity: 1;
+}
+.custom .bumper.left{
     float: left;
 }
-.custom .trigger.right{
+.custom .bumper.right{
     float: right;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
-
-/* The bumpers follow the same methodology as the triggers in terms of
-placement */
-/*.custom .bumper{*/
-    /*width: 89px;*/
-    /*height: 28px;*/
-    /*background: url();*/
-    /*opacity: 0;*/
-/*}*/
-/*.custom .bumpers{*/
-    /*position: absolute;*/
-    /*width: 586px;*/
-    /*height: 28px;*/
-    /*left: 99px;*/
-    /*top: 72px;*/
-/*}*/
-/*.custom .bumper.pressed{ [> The '.pressed' class is used for most buttons to signify they've been pressed <]*/
-    /*opacity: 1;*/
-/*}*/
-/*.custom .bumper.left{*/
-  /*/* Call me lazy or smart, but why should I make 2 bumpers when they're symmetrical*/
-  /*and I can just rotate them in the browser? Also, note that you most likely won't need*/
-  /*to use a browser speficic prefix unless it's something that is indeed browser specific.*/
-  /*NOTE: CLR Browser is basically chrome, so you use '-webkit-' as the browser prefix. */*/
-    /*-webkit-transform: rotateY(180deg);*/
-    /*transform: rotateY(180deg);*/
-    /*float: left;*/
-/*}*/
-/*.custom .bumper.right{*/
-    /*float: right;*/
-/*}*/
 
 /* This bit of code is for the player indicator, which is represented in
 quandrants on the xbox controller. That's note what it's called on the
@@ -95,8 +90,7 @@ NOTE: Player orderin starts at 0, so p0 = Player 1 */
 .custom .p3{
     background-position: 0 -70px;
 }
-/* This is to size and position the containing div for the 
-start and select buttons. */
+
 .custom .arrows{
     position: absolute;
     width: 176px;
@@ -104,7 +98,6 @@ start and select buttons. */
     top: 214px;
     left: 358px;
 }
-/* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
     width: 71.5px;
     height: 61.5px;
@@ -156,78 +149,24 @@ Note that the rotation of the sticks in hard coded with javascript, so it applie
 the CSS inline. */
 .custom .sticks{
     position: absolute;
-    width: 364px;
-    height: 105px;
-    top: 328px;
-    left: 210px;
+    width: 146px;
+    height: 146px;
+    top: 142px;
+    left: 133px;
 }
 .custom .stick{
     position: absolute;
-    height:105px;
-    width: 105px;
-}
-.custom .stick.pressed.left{
-    background-position-x: -106px;
-}
-.custom .stick.pressed.right{
-    background-position-x: -211px;
+    background-color: #10131A;
+    border-radius: 10px;
+    width: 146px;
+    height: 146px;
 }
 .custom .stick.left{
     top: 0;
     left: 0;
 }
 .custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
-}
-/* Dpad possitioning and sizing */
-.custom .dpad{
-    position: absolute;
-    width: 146px;
-    height: 146px;
-    top: 142px;
-    left: 133px;
-}
-.custom .face{
-    position: absolute;
-}
-.custom .face.up, .custom .face.down{
-    width: 33.5px;
-    height: 34px;
-}
-.custom .face.left, .custom .face.right{
-    width: 34px;
-    height: 33.5px;
-}
-.custom .face.up{
-    left: 56px;
-    top: 0;
-    background-position: 92px 0px;
-}
-.custom .face.down{
-    left: 56px;
-    top: 112px;
-    background-position: 131px 0;
-    -webkit-transform: rotateX(180deg);
-    transform: rotateX(180deg);
-}
-.custom .face.left{
-    top: 56px;
-    left: 0;
-    background-position: 0px 0;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-.custom .face.right{
-    top: 56px;
-    right: 0px;
-    background-position: 53px 0;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-.custom .face.pressed{
-    background: url(drawing/drawing.svg);
-    background-position-x: -1323px;
+    display: none;
 }
 /* NOTE: You NEED to set this to exactly half the height of what is listed 
 for '.controller.custom' so when your skin is activated via player selection
