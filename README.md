@@ -3,9 +3,13 @@
 This are some personal CSS skins for the gamepad display web app written by
 [mrmcpowned](https://obsproject.com/forum/threads/gamepad-display.12508/).
 
-## Skins:
- - SNES
+## SNES
+SVG skin for SNES display.
 
-## Roadmap:
- - Logitech F710 skin.
- - Update SNES base image for a higher resolution.
+*IMPORTANT:* CLR Browser maps buttons incorrectly for some USB controllers.
+Window Capture using Google Chrome is recomended.
+
+## F710
+
+# Roadmap:
+- SVG for F710.
