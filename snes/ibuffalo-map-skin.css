@@ -149,21 +149,30 @@ Note that the rotation of the sticks in hard coded with javascript, so it applie
 the CSS inline. */
 .custom .sticks{
     position: absolute;
-    width: 146px;
-    height: 146px;
-    top: 142px;
-    left: 133px;
+    width: 231px;
+    height: 231px;
+    top: 100px;
+    left: 90.5px;
+}
+.custom .sticks::after{
+    content: '';
+    position: absolute;
+    width: 231px;
+    height: 231px;
+    background: url(drawing/drawing.svg);
+    background-position-x: -1357px;
 }
 .custom .stick{
     position: absolute;
-    background-color: #10131A;
-    border-radius: 10px;
-    width: 146px;
-    height: 146px;
+    background-color: white;
+    width: 82px;
+    height: 82px;
+    transform: rotateX(0deg) !important;
+    transform: rotateY(0deg) !important;
 }
 .custom .stick.left{
-    top: 0;
-    left: 0;
+    top: 74px;
+    left: 75px;
 }
 .custom .stick.right{
     display: none;
@@ -173,59 +182,5 @@ for '.controller.custom' so when your skin is activated via player selection
 parameters (e.g. http://mrmcpowned.com/gamepad?p=1) it will be correctly
 centered on screen. */
 .custom.half{
-    margin-top: -279px;
+    margin-top: -212px;
 }
-/* The following entries are empty because I haven't used them yet, but they
-exist for the purpose of displaying a fightstick. Since fightsticks have 
-the left and right triggers and digital buttons, there are separate 
-html items that allow the triggers to be shown as button presses isntead of
-an opacity setting */
-.custom .trigger-button.left{
-    
-}
-.custom .trigger-button.right{
-    
-}
-.custom .trigger-button.left.pressed{
-    
-}
-.custom .trigger-button.right.pressed{
-    
-}
-/* This is where the fight stick CSS would go. The ideal way of 
-showing the input would be to use an image sprite of a fight stick in
-all 8 positions, and change it according to the inputs. The classes 
-themselves are fairly self explanatory. */
-.fstick{
-    position: absolute;
-    width: 140px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
-}
-.fstick.up{
-  
-}
-.fstick.down{
-  
-}
-.fstick.left{
-  
-}
-.fstick.right{
-  
-}
-.fstick.up.right{
-  
-}
-.fstick.up.left{
-  
-}
-.fstick.down.right{
-  
-}
-.fstick.down.left{
-  
-}
-
-/*END PS3 Controller Styling*/
