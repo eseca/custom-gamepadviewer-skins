@@ -109,32 +109,6 @@ placement */
     /*float: right;*/
 /*}*/
 
-/* This bit of code is for the player indicator, which is represented in
-quandrants on the xbox controller. That's note what it's called on the
-PS3 controller but it'd be pointless for me to change the HTML for 
-something as pedantic as a name. */
-.custom .quadrant{
-    position: absolute;
-    height: 17px;
-    width: 111px;
-    top: 140px;
-    left: 240px;
-}
-/* Since the player indicator is just a CSS sprite, we change the 
-position of the background to match the player number.
-NOTE: Player orderin starts at 0, so p0 = Player 1 */
-.custom .p0{
-    background-position: 0 -6px;
-}
-.custom .p1{
-    background-position: 0 -28px;
-}
-.custom .p2{
-    background-position: 0 -49px;
-}
-.custom .p3{
-    background-position: 0 -70px;
-}
 /* This is to size and position the containing div for the 
 start and select buttons. */
 .custom .arrows{
@@ -191,35 +165,7 @@ start and select buttons. */
 .custom .y{
     left: 92px;
 }
-/* Analog sticks follow the same principles as the triggers in terms of positioning
-Note that the rotation of the sticks in hard coded with javascript, so it applies 
-the CSS inline. */
-.custom .sticks{
-    position: absolute;
-    width: 364px;
-    height: 105px;
-    top: 328px;
-    left: 210px;
-}
-.custom .stick{
-    position: absolute;
-    height:105px;
-    width: 105px;
-}
-.custom .stick.pressed.left{
-    background-position-x: -106px;
-}
-.custom .stick.pressed.right{
-    background-position-x: -211px;
-}
-.custom .stick.left{
-    top: 0;
-    left: 0;
-}
-.custom .stick.right{
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
-}
+
 /* Dpad possitioning and sizing */
 .custom .dpad{
     position: absolute;
@@ -276,57 +222,6 @@ centered on screen. */
 .custom.half{
     margin-top: -279px;
 }
-/* The following entries are empty because I haven't used them yet, but they
-exist for the purpose of displaying a fightstick. Since fightsticks have 
-the left and right triggers and digital buttons, there are separate 
-html items that allow the triggers to be shown as button presses isntead of
-an opacity setting */
-.custom .trigger-button.left{
-    
-}
-.custom .trigger-button.right{
-    
-}
-.custom .trigger-button.left.pressed{
-    
-}
-.custom .trigger-button.right.pressed{
-    
-}
-/* This is where the fight stick CSS would go. The ideal way of 
-showing the input would be to use an image sprite of a fight stick in
-all 8 positions, and change it according to the inputs. The classes 
-themselves are fairly self explanatory. */
-.fstick{
-    position: absolute;
-    width: 140px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
-}
-.fstick.up{
-  
-}
-.fstick.down{
-  
-}
-.fstick.left{
-  
-}
-.fstick.right{
-  
-}
-.fstick.up.right{
-  
-}
-.fstick.up.left{
-  
-}
-.fstick.down.right{
-  
-}
-.fstick.down.left{
-  
-}
+
 
 /*END PS3 Controller Styling*/
